@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+name: abc
+person:
+  name: zhangsan
+  age: 20
+
+address:
+  - beijing
+  - shanghai
+  - xian
+  - shenzhen
+
+msg1: 'hello \n hello' # 不会识别
+msg2: "hello \n hello" # 会识别
